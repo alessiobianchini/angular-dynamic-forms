@@ -1,42 +1,27 @@
-# Angular Dynamic Forms
+# NgDynamicForms
 
-<a href="https://ultimateangular.com" target="_blank"><img src="https://toddmotto.com/img/ua.png"></a>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
----
+## Development server
 
-> Check out the [live version](https://toddmotto.com/angular-dynamic-forms/), 78KB fully AoT'd and minified
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
----
+## Code scaffolding
 
-### Follow the tutorial
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-> You can follow the [tutorial here](https://toddmotto.com/angular-dynamic-components-forms)
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-### Running the seed or final project
+## Running unit tests
 
-* To get started with the seed project, [clone this repo](https://github.com/toddmotto/angular-dynamic-forms/tree/seed).
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-* To run the final project, [clone this repo](https://github.com/toddmotto/angular-dynamic-forms).
+## Running end-to-end tests
 
-Once you've cloned the repo, install all the dependencies by running:
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-```bash
-yarn install
+## Further help
 
-# OR
-
-npm install
-```
-
-You can then dive straight into coding by running:
-
-```bash
-yarn start
-
-# OR
-
-npm start
-```
-
-This will start up webpack and a local development server at [localhost:3000](http://localhost:3000).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
