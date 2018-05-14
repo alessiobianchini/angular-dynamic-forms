@@ -1,6 +1,6 @@
 # Angular Dynamic Forms
 
-# Original project https://github.com/toddmotto/angular-dynamic-forms
+## Original project https://github.com/toddmotto/angular-dynamic-forms
 
 ---
 
