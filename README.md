@@ -1,10 +1,8 @@
-# Angular Dynamic Forms
-
-## Original project https://github.com/toddmotto/angular-dynamic-forms
+# Angular 6 Dynamic Forms
 
 ---
 
-### Running the seed or final project
+### Running final project
 
 
 Once you've cloned the repo, install all the dependencies by running:
