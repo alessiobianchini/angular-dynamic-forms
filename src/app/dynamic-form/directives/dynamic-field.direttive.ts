@@ -5,11 +5,13 @@ import { FieldConfig } from '../models/field-config.interface';
 import { FormButtonComponent } from '../components/form-button/form-button.component';
 import { FormInputComponent } from '../components/form-input/form-input.component';
 import { FormSelectComponent } from '../components/form-select/form-select.component';
+import { FormRadioComponent } from '../components/form-radio/form-radio.component';
 
 const components: {[type: string]: Type<Field>} = {
   button: FormButtonComponent,
   input: FormInputComponent,
-  select: FormSelectComponent
+  select: FormSelectComponent,
+  radio: FormRadioComponent
 };
 
 @Directive({
