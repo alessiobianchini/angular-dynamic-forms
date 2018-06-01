@@ -7,6 +7,7 @@ import { FormInputComponent } from './components/form-input/form-input.component
 import { DynamicFormComponent } from './containers/dynamic-form/dynamic-form.component';
 import { FormSelectComponent } from './components/form-select/form-select.component';
 import { FormRadioComponent } from './components/form-radio/form-radio.component';
+import { FormCheckboxComponent } from './components/form-checkbox/form-checkbox.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,8 @@ import { FormRadioComponent } from './components/form-radio/form-radio.component
     FormButtonComponent,
     FormInputComponent,
     FormSelectComponent,
-    FormRadioComponent
+    FormRadioComponent,
+    FormCheckboxComponent
   ],
   exports: [
     DynamicFormComponent
@@ -28,7 +30,8 @@ import { FormRadioComponent } from './components/form-radio/form-radio.component
     FormButtonComponent,
     FormInputComponent,
     FormSelectComponent,
-    FormRadioComponent
+    FormRadioComponent,
+    FormCheckboxComponent
   ]
 })
 export class DynamicFormModule {}

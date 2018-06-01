@@ -35,6 +35,19 @@ export class Example1Component implements AfterViewInit {
       validation: [Validators.required]
     },
     {
+      type: 'checkbox',
+      label: 'Favourite Food',
+      name: 'foodCheckbox',
+      options: [
+        { value: 0, label: 'Pizza' },
+        { value: 1, label: 'Hot Dogs' },
+        { value: 2, label: 'Knakworstje' },
+        { value: 3, label: 'Coffee' }
+      ],
+      placeholder: 'Check options',
+      validation: [Validators.required]
+    },
+    {
       label: 'Submit',
       name: 'submit',
       type: 'button'
