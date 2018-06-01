@@ -28,17 +28,17 @@ export class Example1Component implements AfterViewInit {
       validation: [Validators.required]
     },
     {
-      label: 'Submit',
-      name: 'submit',
-      type: 'button'
-    },
-    {
       type: 'radio',
       label: 'Deliver ?',
       name: 'deliver',
       options: [{ value: 0, label: 'Yes' }, { value: 1, label: 'No' }],
       validation: [Validators.required]
     },
+    {
+      label: 'Submit',
+      name: 'submit',
+      type: 'button'
+    }
   ];
 
   ngAfterViewInit() {
